@@ -15,6 +15,8 @@
 		E22B0F6F1CFFC7EE00A1A8E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22B0F6D1CFFC7EE00A1A8E7 /* LaunchScreen.storyboard */; };
 		E22B0F7A1CFFC7EE00A1A8E7 /* ____testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E22B0F791CFFC7EE00A1A8E7 /* ____testTests.m */; };
 		E22B0F851CFFC7EE00A1A8E7 /* ____testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E22B0F841CFFC7EE00A1A8E7 /* ____testUITests.m */; };
+		E22B0F951CFFC7FF00A1A8E7 /* CALayer+LYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E22B0F931CFFC7FF00A1A8E7 /* CALayer+LYAdd.m */; };
+		E22B0F971CFFC9F600A1A8E7 /* fmrwBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E22B0F961CFFC9F600A1A8E7 /* fmrwBackground.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E22B0F801CFFC7EE00A1A8E7 /* 动画分类testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "动画分类testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22B0F841CFFC7EE00A1A8E7 /* ____testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____testUITests.m"; sourceTree = "<group>"; };
 		E22B0F861CFFC7EE00A1A8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22B0F921CFFC7FF00A1A8E7 /* CALayer+LYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+LYAdd.h"; sourceTree = "<group>"; };
+		E22B0F931CFFC7FF00A1A8E7 /* CALayer+LYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LYAdd.m"; sourceTree = "<group>"; };
+		E22B0F941CFFC7FF00A1A8E7 /* LYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCategoriesMacro.h; sourceTree = "<group>"; };
+		E22B0F961CFFC9F600A1A8E7 /* fmrwBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fmrwBackground.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		E22B0F5E1CFFC7EE00A1A8E7 /* 动画分类test */ = {
 			isa = PBXGroup;
 			children = (
+				E22B0F961CFFC9F600A1A8E7 /* fmrwBackground.jpg */,
+				E22B0F921CFFC7FF00A1A8E7 /* CALayer+LYAdd.h */,
+				E22B0F931CFFC7FF00A1A8E7 /* CALayer+LYAdd.m */,
+				E22B0F941CFFC7FF00A1A8E7 /* LYCategoriesMacro.h */,
 				E22B0F621CFFC7EE00A1A8E7 /* AppDelegate.h */,
 				E22B0F631CFFC7EE00A1A8E7 /* AppDelegate.m */,
 				E22B0F651CFFC7EE00A1A8E7 /* ViewController.h */,
@@ -244,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E22B0F6F1CFFC7EE00A1A8E7 /* LaunchScreen.storyboard in Resources */,
+				E22B0F971CFFC9F600A1A8E7 /* fmrwBackground.jpg in Resources */,
 				E22B0F6C1CFFC7EE00A1A8E7 /* Assets.xcassets in Resources */,
 				E22B0F6A1CFFC7EE00A1A8E7 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22B0F951CFFC7FF00A1A8E7 /* CALayer+LYAdd.m in Sources */,
 				E22B0F671CFFC7EE00A1A8E7 /* ViewController.m in Sources */,
 				E22B0F641CFFC7EE00A1A8E7 /* AppDelegate.m in Sources */,
 				E22B0F611CFFC7EE00A1A8E7 /* main.m in Sources */,
